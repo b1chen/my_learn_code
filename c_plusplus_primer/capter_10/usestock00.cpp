@@ -1,5 +1,5 @@
 #include <iostream>
-#include "stack00.h"
+#include "stock00.h"
 
 int main(){
 	Stock fluffy_the_cat;

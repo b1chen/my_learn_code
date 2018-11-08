@@ -2,7 +2,7 @@
 #define STACK00_H_
 #include <string>
 
-class Stack{
+class Stock{
 private:
 	std::string company;
 	long shares;//股票数量
@@ -15,6 +15,8 @@ public:
 	void sell(long num, double price);
 	void update(double price);
 	void show();
+	Stock(const string &co, long n = 0, double pr = 0.0);
+	Stock();
 };
 
 #endif
