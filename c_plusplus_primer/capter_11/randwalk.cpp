@@ -19,12 +19,14 @@ int main(){
 		cout << "Enter step length: ";
 		if (!(cin >> dstep))
 			break;
-		
+		cout << "Target Distance: " << target << ", Step Size: " << dstep << endl;
+		cout << steps << ": (x,y) = (" << step.xval << ", " << step.yval << ")" << endl;
 		while (result.magval() < target){
 			direction = rand() % 360;
 			step.reset(dstep, direction, VECTOR::POL);
 			result = result + step;
 			steps++;
+			cout << steps << ": (x,y) = (" << step.xval << ", " << step.yval << ")" << endl;
 		}
 		cout << "After " << steps << " steps, the subject "
 			"has the following location:\n";
