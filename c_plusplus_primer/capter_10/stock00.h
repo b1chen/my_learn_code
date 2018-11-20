@@ -17,6 +17,7 @@ public:
 	void show();
 	Stock(const string &co, long n = 0, double pr = 0.0);
 	Stock();
+	~Stock();
 };
 
 #endif

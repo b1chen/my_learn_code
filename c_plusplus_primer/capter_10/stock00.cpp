@@ -66,10 +66,22 @@ Stack::Stock(const string &co, long n, double pr){
 	if (n < 0){
 		std::cerr << "Number of shares can't be negetive; "
 								<< company << " shares set to 0.\n";
-		share = 0;	
+		shares = 0;	
 	}else{
 		shares = n;	
 	}
 	share_val = pr;
 	set_tot();
 }
+
+Stack::Stock(){
+		company = "no name";
+		shares = 0;
+		share_val = 0.0;
+		total_val = 0.0;
+}
+
+Stack::~Stack(){
+		cout << "Bye, " << company << "!\n";
+}
+
