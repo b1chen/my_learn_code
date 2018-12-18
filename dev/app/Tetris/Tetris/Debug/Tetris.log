@@ -1,0 +1,5 @@
+﻿  Tetris.cpp
+d:\userdata\b1chen\my documents\visual studio 2017\projects\tetris\tetris\tetris.cpp(156): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+d:\userdata\b1chen\my documents\visual studio 2017\projects\tetris\tetris\item.h(395): warning C4715: 'Map::get_replace_row': not all control paths return a value
+  Tetris.vcxproj -> d:\userdata\b1chen\my documents\visual studio 2017\Projects\Tetris\Debug\Tetris.exe
+  Tetris.vcxproj -> d:\userdata\b1chen\my documents\visual studio 2017\Projects\Tetris\Debug\Tetris.pdb (Partial PDB)
